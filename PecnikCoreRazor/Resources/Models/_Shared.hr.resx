@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hr" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="My Next Trip - EN" xml:space="preserve">
+    <value>My Next Trip - HR</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Home page" xml:space="preserve">
+    <value>Početna stranica</value>
+  </data>
+  <data name="Offer" xml:space="preserve">
+    <value>Ponuda</value>
+  </data>
+  <data name="Our Offer" xml:space="preserve">
+    <value>Usluge</value>
+  </data>
+  <data name="Trips" xml:space="preserve">
+    <value>Izleti</value>
+  </data>
+  <data name="Email is a required field." xml:space="preserve">
+    <value>Email je obavezno polje.</value>
+  </data>
+  <data name="Email must be in correct format." xml:space="preserve">
+    <value>Email mora biti u ispravnom formatu.</value>
+  </data>
+  <data name="Message is a required field." xml:space="preserve">
+    <value>Poruka je obavezno polje.</value>
+  </data>
+  <data name="Name is a required field." xml:space="preserve">
+    <value>Ime je obavezno polje.</value>
+  </data>
+  <data name="ABOUT" xml:space="preserve">
+    <value>O NAMA</value>
+  </data>
+  <data name="Adventure" xml:space="preserve">
+    <value>Avantura</value>
+  </data>
+  <data name="Arranged Trips" xml:space="preserve">
+    <value>Gotovi Izleti</value>
+  </data>
+  <data name="Browse trips" xml:space="preserve">
+    <value>Pregled izleta</value>
+  </data>
+  <data name="Custom Trips" xml:space="preserve">
+    <value>Izleti po dogovoru</value>
+  </data>
+  <data name="Donec sed odio dui.Cras justo odio, dapibus ac facilisis in, egestas eget quam.Vestibulum id ligula porta felis euismod semper.Fusce dapibus, tellus ac cursus commodo." xml:space="preserve">
+    <value>Oduvijek ste sanjali o paraglidingu ili samo želite popiti čašu kvalitetnog vina usred
+čarobnog vinograda, pustite kreativnost da odradi svoje, a mi ćemo se pobrinuti da vaše želje postanu stvarnost.</value>
+  </data>
+  <data name="Everything we do is guided by the idea of personal development, moving personal boundaries and fighting against getting stuck in the rut. We believe that a combination of spending time in nature, adventures combined with discovering new places and meeting new people is perfect to get you on the track to fulfil your personal and business goals." xml:space="preserve">
+    <value>Sve što radimo vođeno je osobnim razvojem, pomicanjem vlastitih granica i borbom protiv kolotečine svakodnevice. Vjerujemo da boravak u prirodi i avanture u kombinaciji s putovanjem i upoznavanjem novih mjesta i ljudi imaju pozitivan utjecaj na produktivnost te ispunjavanje osobnih i poslovnih ciljeva.</value>
+  </data>
+  <data name="In My Next Trip we believe every part of our lives can be enjoyable so the same applies to our transfer. Traveling from one place to another can be more than just sitting in a car." xml:space="preserve">
+    <value>U My Next Tripu vjerujemo da svaki dio života može biti ugodan. Ovu ideju primjenjujemo i u našoj ponudi transfera. Putovanje od točke A do točke B može biti puno više od samog sjedenja u autu.</value>
+  </data>
+  <data name="In this carefully crafted collection My Next Trip will take you on a journey filled with unique natural beauty, cities bursting with history and a few adventures to spice up the mix." xml:space="preserve">
+    <value>U ovoj pažljivo odabranoj kolekciji My Next Trip vodi vas na putovanje puno jedinstvenih
+prirodnih ljepota, gradova koji odišu poviješću i avantura za upotpuniti doživljaj.</value>
+  </data>
+  <data name="My Next Trip will take you on a journey where moments are filled with joy, smiles are permanent and unforgettable experiences guaranteed. Ask yourself what is your next trip and live the unforgettable moments on magical locations with our professional team. Let us take care of turning your wishes into reality." xml:space="preserve">
+    <value>My next trip će vas odvesti na putovanje gdje su trenuci prožeti užitkom, osmjesi trajni, a nezaboravna iskustva neizbježna. Zapitajte se koje je moje sljedeće putovanje i proživite nezaboravne trenutke na čarobnim lokacijama uz naš profesionalni tim. Dopustite nam da se pobrinemo da vaše želje postanu stvarnost.</value>
+  </data>
+  <data name="Read more" xml:space="preserve">
+    <value>Nastavi čitati</value>
+  </data>
+  <data name="This chapter of My Next Trip is for all of those who know exactly what they want, the creative ones, people who are ready to make their dreams come true with professional and inspiring suggestions from our team." xml:space="preserve">
+    <value>Ovo poglavlje My Next Tripa je za sve one koji točno znaju što žele, kreativce, ljude koji su spremni ispuniti svoje snove potpomognuti profesionalnim i inspirativnim prijedlozima našeg tima.</value>
+  </data>
+  <data name="Transport" xml:space="preserve">
+    <value>Transport</value>
+  </data>
+</root>

@@ -1,0 +1,96 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = SharedLocalizer["Contact"];
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+<div class="row container">
+
+    @* FORMA ZA KONTAKT *@
+    <div class="col-md-6 formContainer">
+        <h3>Send us a message</h3>
+        <form class="form form-horizontal contactForm" method="post" id="contactForm">
+            @*<div asp-validation-summary="All"></div>*@
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label asp-for="Contact.Name" class="col-md-3 right">Name:</label>
+                        <div class="col-md-9">
+                            <input asp-for="Contact.Name" class="form-control" />
+                            <span asp-validation-for="Contact.Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label asp-for="Contact.LastName" class="col-md-3 right">Last name:</label>
+                        <div class="col-md-9">
+                            <input asp-for="Contact.LastName" class="form-control" />
+                            <span asp-validation-for="Contact.LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label asp-for="Contact.Email" class="col-md-3 right">Email:</label>
+                        <div class="col-md-9">
+                            <input asp-for="Contact.Email" class="form-control" />
+                            <span asp-validation-for="Contact.Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label asp-for="Contact.Message" class="col-md-3 right">Your Message:</label>
+                        <div class="col-md-9">
+                            <textarea asp-for="Contact.Message" rows="6" class="form-control"></textarea>
+                            <span asp-validation-for="Contact.Message" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-md-offset-3">
+                    <button type="submit" class="btn btn-success">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    @* PODACI ZA KONTAKT *@
+    <div class="col-md-6 contactInfo">
+        <address class="well">
+            <p>Ulica DiživiFirma 22</p>
+            <p>Zagreb, 10000 Croatia</p>
+            <p>(00385)99/123-4567</p>
+            <p><a href="mailto:Support@example.com">superkulfirma@domena.hr</a></p>
+        </address>
+        <div class="myIframe thumbnail">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7865.605698436554!2d15.971296328986277!3d45.81303525299744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6fc34f31e71%3A0x64d93eb3216e56f4!2sGajeva+ul.+5%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1527354857922" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+
+
+
+
+
+
+

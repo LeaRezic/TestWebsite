@@ -1,0 +1,136 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = SharedLocalizer["Home page"];
+    Layout = "_LayoutLandingPage.cshtml";
+}
+
+@*HEADER BEGIN*@
+<div class="banner-breadcum section">
+    <div class="row">
+        <div class="breadcrumb-image" style="background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-26.jpg);">
+            <div class="container text-center">
+                <h1>See the Beauty</h1>
+                <h1>Feel the Adventure</h1>
+                <h1>Live the Life</h1>
+                @*<div class="breadcrumbs_path">
+                        <a href="#">Home</a>  -   FAQ's
+                    </div>*@
+            </div>
+        </div>
+    </div>
+</div>
+@*HEADER END*@
+
+
+<div class="container body-content">
+    @* OFFER SUMMARY BEGIN *@
+    <div class="offerSummary">
+        <div class="row">
+            @* TRANSPORT SERVICES *@
+            <div class="col-md-3 col-sm-6 serviceSummary">
+                <img class="img-responsive img-rounded" src="~/images/customTrips.jpg" alt="Generic placeholder image">
+                <h2>@SharedLocalizer["Transport"]</h2>
+                <p>@SharedLocalizer["In My Next Trip we believe every part of our lives can be enjoyable so the same applies to our transfer. Traveling from one place to another can be more than just sitting in a car."]<br /><a href="Offer#transportOffer" role="button"> @SharedLocalizer["Read more"]</a></p>
+
+            </div><!-- /.col-lg-4 -->
+            @* ALREADY PLANNED TRIPS *@
+            <div class="col-md-3 col-sm-6 serviceSummary">
+                <img class="img-responsive img-rounded" src="~/images/sipan.jpg" alt="Generic placeholder image">
+                <h2>
+                    @SharedLocalizer["Arranged Trips"]
+                </h2>
+                <p>
+                    @SharedLocalizer["In this carefully crafted collection My Next Trip will take you on a journey filled with unique natural beauty, cities bursting with history and a few adventures to spice up the mix."]<br /><a href="Offer#plannedTripsOffer" role="button"> @SharedLocalizer["Browse trips"]</a>
+                </p>
+
+            </div><!-- /.col-lg-4 -->
+            @* CUSTOM TRIPS *@
+            <div class="col-md-3 col-sm-6 serviceSummary">
+                <img class="img-responsive img-rounded" src="~/images/travel.jpg" alt="Generic placeholder image">
+                <h2>@SharedLocalizer["Custom Trips"]</h2>
+                <p>
+                    @SharedLocalizer["This chapter of My Next Trip is for all of those who know exactly what they want, the creative ones, people who are ready to make their dreams come true with professional and inspiring suggestions from our team."]<br /><a href="Offer#customTripsOffer" role="button"> @SharedLocalizer["Read more"]</a>
+                </p>
+
+            </div><!-- /.col-lg-4 -->
+            @* ADVENTURE *@
+            <div class="col-md-3 col-sm-6 serviceSummary">
+                <img class="img-responsive img-rounded" src="~/images/adventure.jpg" alt="Generic placeholder image">
+                <h2>@SharedLocalizer["Adventure"]</h2>
+                <p>@SharedLocalizer["Donec sed odio dui.Cras justo odio, dapibus ac facilisis in, egestas eget quam.Vestibulum id ligula porta felis euismod semper.Fusce dapibus, tellus ac cursus commodo."]<br /><a href="Offer#customTripsOffer" role="button"> @SharedLocalizer["Read more"]</a></p>
+
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+    @* OFFER SUMMARY END *@
+    @* ABUT US BEGIN *@
+    <hr style="height:2px;background-color:#18bc9c" />
+    <section class=" text-center">
+        <h3><strong class="text-muted">@SharedLocalizer["ABOUT"]</strong></h3>
+        <p class="text-center" style="font-size:2rem;">
+            @SharedLocalizer["Everything we do is guided by the idea of personal development, moving personal boundaries and fighting against getting stuck in the rut. We believe that a combination of spending time in nature, adventures combined with discovering new places and meeting new people is perfect to get you on the track to fulfil your personal and business goals."] @SharedLocalizer["My Next Trip will take you on a journey where moments are filled with joy, smiles are permanent and unforgettable experiences guaranteed. Ask yourself what is your next trip and live the unforgettable moments on magical locations with our professional team. Let us take care of turning your wishes into reality."]
+        </p>
+        <p>
+    </section>
+    @* ABUT US END *@
+
+    <hr style="height:2px;background-color:#18bc9c" />
+
+    @* CAROUSEL COMMENTS BEGIN *@
+    <div class="carousel slide" data-ride="carousel" id="quote-carousel" data-interval="12000">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1"></li>
+            <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner well well-lg" style="background-color:#ccc;">
+            <!-- Quote 1 -->
+            <div class="item active">
+                <blockquote>
+                    <div class="row">
+                        <div>
+                            <p>My Next Trip is so awesome, oh my god, I love these guys! Perfect way to save time on planning the trip, as well as share it with wonderful people.</p>
+                            <small class="text-success">Graham Chapman</small>
+                        </div>
+                    </div>
+                </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+                <blockquote>
+                    <div class="row">
+                        <div>
+                            <p>We had such nice adventures, some paragliding and a boat ride in the same day.The team was super friendly and obviously enjoying what they do immensely.</p>
+                            <small class="text-success">Alonso Fernandez</small>
+                        </div>
+                    </div>
+                </blockquote>
+            </div>
+            <!-- Quote 3 -->
+            <div class="item">
+                <blockquote>
+                    <div class="row">
+                        <div>
+                            <p>After a lot of research prior to coming to Croatia, I've decided My Next Trip offered exactly the kind of service my family was looking for - custom tailored trips for a great price. My Next Trip team was so relaxed and professional, we would very highly recommend them for an amazing time in Croatia.</p>
+                            <small class="text-success">John Cleese(and the family)</small>
+                        </div>
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+    </div>
+    @* CAROUSEL COMMENTS END *@
+
+    <hr />
+    <footer>
+        <p class="text-muted">&copy; 2018 - My Next Trip</p>
+    </footer>
+
+</div>

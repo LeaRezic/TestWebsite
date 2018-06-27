@@ -1,0 +1,15 @@
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\bin\Release\netcoreapp2.0\PecnikCoreRazor.deps.json
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\bin\Release\netcoreapp2.0\PecnikCoreRazor.runtimeconfig.json
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\bin\Release\netcoreapp2.0\PecnikCoreRazor.runtimeconfig.dev.json
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\bin\Release\netcoreapp2.0\PecnikCoreRazor.dll
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\bin\Release\netcoreapp2.0\PecnikCoreRazor.pdb
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.csproj.CoreCompileInputs.cache
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.AssemblyInfoInputs.cache
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.AssemblyInfo.cs
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.dll
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.pdb
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.csprojAssemblyReference.cache
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\bin\Release\netcoreapp2.0\hr\PecnikCoreRazor.resources.dll
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.Resources.Models._Shared.hr.resources
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\PecnikCoreRazor.csproj.GenerateResource.cache
+C:\Users\Lea\Documents\0_Programiranje\ProjectPecnik\PecnikCoreRazor\PecnikCoreRazor\PecnikCoreRazor\obj\Release\netcoreapp2.0\hr\PecnikCoreRazor.resources.dll
