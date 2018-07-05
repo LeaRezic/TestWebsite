@@ -4,20 +4,20 @@
     ViewData["Title"] = SharedLocalizer["Contact"];
 }
 
-<h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
+@*<h2>@ViewData["Title"]</h2>*@
+@*<h3>@Model.Message</h3>*@
 
-<div class="row container">
+<div class="row container" style="margin-top:30px;">
 
     @* FORMA ZA KONTAKT *@
     <div class="col-md-6 formContainer">
-        <h3>Send us a message</h3>
+        <h3>@SharedLocalizer["Send us a message"]</h3>
         <form class="form form-horizontal contactForm" method="post" id="contactForm">
             @*<div asp-validation-summary="All"></div>*@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label asp-for="Contact.Name" class="col-md-3 right">Name:</label>
+                        <label asp-for="Contact.Name" class="col-md-3 right"></label>
                         <div class="col-md-9">
                             <input asp-for="Contact.Name" class="form-control" />
                             <span asp-validation-for="Contact.Name" class="text-danger"></span>
@@ -25,21 +25,21 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <label asp-for="Contact.LastName" class="col-md-3 right">Last name:</label>
-                        <div class="col-md-9">
-                            <input asp-for="Contact.LastName" class="form-control" />
-                            <span asp-validation-for="Contact.LastName" class="text-danger"></span>
-                        </div>
+            @*<div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Contact.LastName" class="col-md-3 right">Last name:</label>
+                    <div class="col-md-9">
+                        <input asp-for="Contact.LastName" class="form-control" />
+                        <span asp-validation-for="Contact.LastName" class="text-danger"></span>
                     </div>
                 </div>
             </div>
+        </div>*@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label asp-for="Contact.Email" class="col-md-3 right">Email:</label>
+                        <label asp-for="Contact.Email" class="col-md-3 right"></label>
                         <div class="col-md-9">
                             <input asp-for="Contact.Email" class="form-control" />
                             <span asp-validation-for="Contact.Email" class="text-danger"></span>
@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label asp-for="Contact.Message" class="col-md-3 right">Your Message:</label>
+                        <label asp-for="Contact.Message" class="col-md-3 right"></label>
                         <div class="col-md-9">
                             <textarea asp-for="Contact.Message" rows="6" class="form-control"></textarea>
                             <span asp-validation-for="Contact.Message" class="text-danger"></span>
@@ -60,7 +60,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-md-offset-3">
-                    <button type="submit" class="btn btn-success">Send</button>
+                    <button type="submit" class="btn btn-success">@SharedLocalizer["Send"]</button>
                 </div>
             </div>
         </form>

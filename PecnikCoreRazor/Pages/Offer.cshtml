@@ -4,19 +4,20 @@
 @{
     ViewData["Title"] = SharedLocalizer["Offer"];
 }
-
 <div class="offerContainer">
     @* TRANSPORT *@
     <div class="container" id="transportOffer">
-        <div class="offerSection thumbnail">
-            <h3>Transport services</h3>
+        <div class="offerSection thumbnail" style="border:1px solid #18bc9c;">
+            <h3>@SharedLocalizer["Transport services"]</h3>
             @*<p>@Localizer["bla"]</p>*@
-            <hr />
+            <hr style="border:0.5px solid #18bc9c;"/>
             <div>
                 <p>
-                    Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici. Smisao korištenja Lorem Ipsum-a jest u tome što umjesto 'sadržaj ovjde, sadržaj ovjde' imamo normalni raspored slova i riječi, pa čitač ima dojam da gleda tekst na razumljivom jeziku. Mnogi programi za stolno izdavaštvo i uređivanje web stranica danas koriste Lorem Ipsum kao zadani model teksta, i ako potražite 'lorem ipsum' na Internetu, kao rezultat dobit ćete mnoge stranice u izradi. Razne verzije razvile su se tijekom svih tih godina, ponekad slučajno, ponekad namjerno (s dodatkom humora i slično).
+                    @SharedLocalizer["In My Next Trip we believe every part of our lives can be enjoyable so the same applies to our transfer. Traveling from one place to another can be more than just sitting in a car."] @SharedLocalizer["We will make sure to turn it into one of the most enjoyable parts of your vacation by giving you the opportunity to discover new beautiful places and experience some of the unique adventures along the way."]
                     <br />
-                    Za one koje zanima, standardni dio Lorem Ipsum-a koji se koristi od 16.-og stoljeća može se naći u nastavku na ovoj stranici. Dijelovi 1.10.32 i 1.10.33 iz djela "de Finibus Bonorum et Malorum" su doslovno preneseni iz originala, popraćeni engleskim prijevodom H. Rackhama iz 1914.
+                    <br />
+                    <span id="plannedTripsDock"></span>
+                    @SharedLocalizer["Contact us for more information:"]<a href="Contact" role="button"> @SharedLocalizer["Contact"]</a>
                 </p>
             </div>
         </div>
@@ -24,14 +25,26 @@
 
     @* PLANNED TRIPS *@
     <div class="container" id="plannedTripsOffer">
-        <div class="offerSection thumbnail">
-            <h3>Already planned routes</h3>
-            <hr />
+        <div class="offerSection thumbnail" style="border:1px solid #ccc;">
+            <h3>@SharedLocalizer["Arranged trips"]</h3>
+            <hr style="border:0.5px solid #ccc;"/>
             <div>
                 <p>
-                    Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici. Smisao korištenja Lorem Ipsum-a jest u tome što umjesto 'sadržaj ovjde, sadržaj ovjde' imamo normalni raspored slova i riječi, pa čitač ima dojam da gleda tekst na razumljivom jeziku. Mnogi programi za stolno izdavaštvo i uređivanje web stranica danas koriste Lorem Ipsum kao zadani model teksta, i ako potražite 'lorem ipsum' na Internetu, kao rezultat dobit ćete mnoge stranice u izradi. Razne verzije razvile su se tijekom svih tih godina, ponekad slučajno, ponekad namjerno (s dodatkom humora i slično).
+                    @SharedLocalizer["In this carefully crafted collection My Next Trip will take you on a journey filled with unique natural beauty, cities bursting with history and a few adventures to spice up the mix."]
+                    @* ovo je grdo sad za umrijet *@
                     <br />
-                    Za one koje zanima, standardni dio Lorem Ipsum-a koji se koristi od 16.-og stoljeća može se naći u nastavku na ovoj stranici. Dijelovi 1.10.32 i 1.10.33 iz djela "de Finibus Bonorum et Malorum" su doslovno preneseni iz originala, popraćeni engleskim prijevodom H. Rackhama iz 1914.
+                    <br />
+                    <br />
+                    <span class="well well-sm">
+                        TU DOĐU NEKE SLIKE, ŠTOLI
+                    </span>
+                    <br />
+                    <br />
+                    <br />
+                    <a href="Destinations" role="button">@SharedLocalizer["Browse our offer of arranged trips"]</a>
+                    <br />
+                    <span id="customTripsDock"></span>
+                    @SharedLocalizer["Contact us for more information:"] <a href="Contact" role="button"> @SharedLocalizer["Contact"]</a>
                 </p>
             </div>
         </div>
@@ -39,17 +52,37 @@
 
     @* CUSTOM TRIPS *@
     <div class="container" id="customTripsOffer">
-        <div class="offerSection thumbnail">
-            <h3>Custom routes</h3>
-            <hr />
+        <div class="offerSection thumbnail" style="border:1px solid #18bc9c;">
+            <h3>@SharedLocalizer["Custom trips"]</h3>
+            <hr style="border:0.5px solid #18bc9c;"/>
             <div>
                 <p>
-                    Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici. Smisao korištenja Lorem Ipsum-a jest u tome što umjesto 'sadržaj ovjde, sadržaj ovjde' imamo normalni raspored slova i riječi, pa čitač ima dojam da gleda tekst na razumljivom jeziku. Mnogi programi za stolno izdavaštvo i uređivanje web stranica danas koriste Lorem Ipsum kao zadani model teksta, i ako potražite 'lorem ipsum' na Internetu, kao rezultat dobit ćete mnoge stranice u izradi. Razne verzije razvile su se tijekom svih tih godina, ponekad slučajno, ponekad namjerno (s dodatkom humora i slično).
+                    @SharedLocalizer["This chapter of My Next Trip is for all of those who know exactly what they want, the creative ones, people who are ready to make their dreams come true with professional and inspiring suggestions from our team."]
                     <br />
-                    Za one koje zanima, standardni dio Lorem Ipsum-a koji se koristi od 16.-og stoljeća može se naći u nastavku na ovoj stranici. Dijelovi 1.10.32 i 1.10.33 iz djela "de Finibus Bonorum et Malorum" su doslovno preneseni iz originala, popraćeni engleskim prijevodom H. Rackhama iz 1914.
+                    <br />
+                    <span id="adventuresDock"></span>
+                    @SharedLocalizer["Contact us for more information:"] <a href="Contact" role="button"> @SharedLocalizer["Contact"]</a>
+
                 </p>
             </div>
         </div>
     </div>
+
+    @* ADVENTURES *@
+    <div class="container" id="customTripsOffer">
+        <div class="offerSection thumbnail" style="border:1px solid #ccc;">
+            <h3>@SharedLocalizer["Adventure activities along the way"]</h3>
+            <hr style="border:0.5px solid #ccc;"/>
+            <div>
+                <p>
+                    @SharedLocalizer["This chapter of My Next Trip is for all of those who know exactly what they want, the creative ones, people who are ready to make their dreams come true with professional and inspiring suggestions from our team."]
+                    <br />
+                    <br />
+                    @SharedLocalizer["Contact us for more information:"] <a href="Contact" role="button"> @SharedLocalizer["Contact"]</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
 </div>
 

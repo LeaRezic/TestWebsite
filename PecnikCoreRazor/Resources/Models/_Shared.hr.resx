@@ -156,13 +156,13 @@
   <data name="Adventure" xml:space="preserve">
     <value>Avantura</value>
   </data>
-  <data name="Arranged Trips" xml:space="preserve">
-    <value>Gotovi Izleti</value>
+  <data name="Arranged trips" xml:space="preserve">
+    <value>Gotovi izleti</value>
   </data>
   <data name="Browse trips" xml:space="preserve">
     <value>Pregled izleta</value>
   </data>
-  <data name="Custom Trips" xml:space="preserve">
+  <data name="Custom trips" xml:space="preserve">
     <value>Izleti po dogovoru</value>
   </data>
   <data name="Donec sed odio dui.Cras justo odio, dapibus ac facilisis in, egestas eget quam.Vestibulum id ligula porta felis euismod semper.Fusce dapibus, tellus ac cursus commodo." xml:space="preserve">
@@ -190,5 +190,48 @@ prirodnih ljepota, gradova koji odišu poviješću i avantura za upotpuniti dož
   </data>
   <data name="Transport" xml:space="preserve">
     <value>Transport</value>
+  </data>
+  <data name="Adventure activities along the way" xml:space="preserve">
+    <value>Avanture po putu</value>
+  </data>
+  <data name="After a lot of research prior to coming to Croatia, I've decided My Next Trip offered exactly the kind of service my family was looking for - custom tailored trips for a great price. My Next Trip team was so relaxed and professional, we would very highly recommend them for an amazing time in Croatia." xml:space="preserve">
+    <value>Nakon puno istraživanja, zaključili smo kako My Next Trip nudi upravo ono što je moja obitelj tražila - izlete u vlastitom aranžmanu po odličnim cijenama. Ekipa je bila jako opuštena i profesionalna, svima bismo preporučili My Next Trip za sjajan provod u Hrvatskoj.</value>
+  </data>
+  <data name="Browse our offer of arranged trips" xml:space="preserve">
+    <value>Pregledajte našu ponudu gotovih izleta</value>
+  </data>
+  <data name="Contact us for more information:" xml:space="preserve">
+    <value>Kontaktirajte nas za više informacija:</value>
+  </data>
+  <data name="Message:" xml:space="preserve">
+    <value>Upit:</value>
+  </data>
+  <data name="My Next Trip is so awesome, oh my god, I love these guys! Perfect way to save time on planning the trip, as well as share it with wonderful people." xml:space="preserve">
+    <value>My Next Trip je pre mega super kul, bože dragi, obožavam ih! Najbolji način za uštedit vrijeme na planiranje puta i dijeljenje istoga s prekrasnim ljudima.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Pošalji</value>
+  </data>
+  <data name="Send us a message" xml:space="preserve">
+    <value>Pošaljite nam upit</value>
+  </data>
+  <data name="Transport services" xml:space="preserve">
+    <value>Usluge prijevoza</value>
+  </data>
+  <data name="We had such nice adventures, some paragliding and a boat ride in the same day.The team was super friendly and obviously enjoying what they do immensely." xml:space="preserve">
+    <value>Nezaboravne avanture, paraglajding i vožnja brodom, sve u istom danu. My Next Trip osoblje je veoma stručno i veselo, očito uživaju u tome što rade.</value>
+  </data>
+  <data name="We will make sure to turn it into one of the most enjoyable parts of your vacation by giving you the opportunity to discover new beautiful places and experience some of the unique adventures along the way." xml:space="preserve">
+    <value>Potrudit ćemo se da u uživate u ovom dijelu vašeg odmora pružajući vam priliku da upoznate prekrasna nova mjesta i iskusite jedinstvene avanture po putu.</value>
+  </data>
+  <data name="You've dreamt for years about paragliding or you just want to drink a glass of wine in the middle of a magical vineyard, just let the creativity flow and we will do the rest to turn your dreams into reality." xml:space="preserve">
+    <value>Oduvijek ste sanjali o paraglidingu ili samo želite popiti čašu kvalitetnog vina usred
+čarobnog vinograda, pustite kreativnost da odradi svoje, a mi ćemo se pobrinuti da vaše želje postanu stvarnost.</value>
+  </data>
+  <data name="Your e-mail:" xml:space="preserve">
+    <value>Vaš e-mail:</value>
+  </data>
+  <data name="Your Name:" xml:space="preserve">
+    <value>Vaše ime:</value>
   </data>
 </root>

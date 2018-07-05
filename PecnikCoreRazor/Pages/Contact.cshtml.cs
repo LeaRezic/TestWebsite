@@ -15,7 +15,7 @@ namespace PecnikCoreRazor.Pages
         [BindProperty]
         public ContactFormModel Contact { get; set; }
 
-        public string Message { get; set; }
+        //public string Message { get; set; }
 
         public void OnGet()
         {
@@ -39,7 +39,7 @@ namespace PecnikCoreRazor.Pages
         {
             var apiKey = Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
             var client = new SendGridClient(apiKey);
-            var from = new EmailAddress($"{Contact.Email}", $"{Contact.Name} {Contact.LastName}");
+            var from = new EmailAddress($"{Contact.Email}", $"{Contact.Name}");
             var subject = "Email from my website - TestniPećnikWeb";
             var to = new EmailAddress("lrezic@racunarstvo.hr", "Ja");
             var plainTextContent = $"{Contact.Message}";
@@ -51,28 +51,19 @@ namespace PecnikCoreRazor.Pages
 
     public class ContactFormModel
     {
+        [Display(Name="Your Name:")]
         [Required(ErrorMessage = "Name is a required field.")]
         public string Name { get; set; }
 
-        public string LastName { get; set; }
-
+        [Display(Name="Your e-mail:")]
         [EmailAddress(ErrorMessage = "Email must be in correct format.")]
         [Required(ErrorMessage = "Email is a required field.")]
         public string Email { get; set; }
 
+        [Display(Name="Message:")]
         [Required(ErrorMessage = "Message is a required field.")]
         public string Message { get; set; }
 
-        //[Required(ErrorMessage = "Name is a required field.")]
-        //public string Name { get; set; }
-
-        //public string LastName { get; set; }
-
-        //[Required]
-        //public string Email { get; set; }
-
-        //[Required]
-        //public string Message { get; set; }
     }
 
 }
